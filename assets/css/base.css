@@ -1,0 +1,27 @@
+:root {
+    --color-menu: #303030;
+    --color-carousel: #F1F1F1;
+    --color-footer: #4C4C4C;
+
+    --color-hover: #D65E37;
+}
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+body {
+
+    font-family: Arial, sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+
+}
