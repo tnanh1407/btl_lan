@@ -60,10 +60,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         text-align: center;
     }
 
-    .login .login__logo img {
-        width: 240px;
-        height: 80px;
-    }
 
     .login .login__form {
         min-width: 460px;
@@ -163,11 +159,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <body>
 
     <div class="login">
-        <div class="login__logo">
-            <img src="assets/image/header/ananas_logo.svg" alt="">
-        </div>
         <div class="login__form">
-            <h3>Đăng nhập Ananas</h3>
+            <h3>Đăng nhập</h3>
             <form action="" method="post">
                 <div class="from_label form-floating ">
                     <input type="text" class="form-control" name="username" id="username" placeholder="admin123">

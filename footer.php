@@ -3,7 +3,7 @@
     <div class="wrap-all row ">
         <div class="search col-xl-3">
             <div class="row center">
-                <img src="assets/image/footer-home.svg" alt="footer-home">
+                <img src="assets/image/logo.jpg" alt="footer-home">
             </div>
             <div class="row center">
                 <button class="btn btn-search-store">TÌM CỬA HÀNG</button>
@@ -14,9 +14,9 @@
                 <div class="col-xl-3">
                     <h4>SẢN PHẨM</h4>
                     <ul>
-                        <li><a href="">Giày Nam</a></li>
-                        <li><a href="">Giày Nữ</a></li>
-                        <li><a href="">Thời trang & phụ kiện</a></li>
+                        <li><a href="">Nguyên liệu</a></li>
+                        <li><a href="">Phụ kiện</a></li>
+                        <li><a href="">Thời trang</a></li>
                         <li><a href="">Sale-off</a></li>
                     </ul>
                 </div>
@@ -42,7 +42,7 @@
                     <ul>
                         <li><a href="">Email góp ý</a></li>
                         <li><a href="">Hotline</a></li>
-                        <li><a href="">1900 0014</a></li>
+                        <li><a href="">0348849619</a></li>
                     </ul>
                 </div>
             </div>

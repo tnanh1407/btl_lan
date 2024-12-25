@@ -25,3 +25,15 @@ html {
     font-size: 62.5%;
 
 }
+
+.divider-- {
+    background: url(assets/image/shoe/bg_divider.png) repeat-x 7px;
+    height: 2px;
+    margin: 4px 0px;
+}
+
+.divider {
+    height: 2px;
+    border-top: #303030 2px solid;
+    margin: 2px 0px;
+}

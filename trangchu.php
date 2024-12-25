@@ -4,7 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ananas - DiscoverYOU</title>
+    <title>HAPPY CAT</title>
+    <!-- CDN fontware -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Link css Bootraps -->
+    <link rel="stylesheet" href="assets/bootrap/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/style.css?v=<?php echo time(); ?>">
 
 </head>
 
@@ -46,14 +54,17 @@
                 <div class="content">
                     <a href="" class="title">Cây Thông NOEL</a>
                     <p>
-Cây thông Noel bằng kẽm nhung handmade sẽ là sự lựa chọn hoàn hảo cho ngôi nhà của bạn trong ngày lễ Giáng Sinh. Với thiết kế tinh tế và chất liệu bền đẹp, cây thông này không chỉ là một món đồ trang trí mà còn là điểm nhấn cho không gian sống của bạn</p>
+                        Cây thông Noel bằng kẽm nhung handmade sẽ là sự lựa chọn hoàn hảo cho ngôi nhà của bạn trong
+                        ngày lễ Giáng Sinh. Với thiết kế tinh tế và chất liệu bền đẹp, cây thông này không chỉ là một
+                        món đồ trang trí mà còn là điểm nhấn cho không gian sống của bạn</p>
                 </div>
             </div>
             <div class="banner-item col-xl-6">
                 <a href=""><img src="assets/image/Banner_Sale-off-2.jpg" alt="Banner_Sale-off-1"></a>
                 <div class="content"><a href="" class="title">Nến tạo hình</a>
                     <p>
-                    Với thiết kế xinh xắn như một chiếc bánh kem thật, đây sẽ là món quà tặng lý tưởng vào dịp sinh nhật cho bạn bè và người thân của bạn
+                        Với thiết kế xinh xắn như một chiếc bánh kem thật, đây sẽ là món quà tặng lý tưởng vào dịp sinh
+                        nhật cho bạn bè và người thân của bạn
                     </p>
                 </div>
             </div>
@@ -105,12 +116,12 @@ Cây thông Noel bằng kẽm nhung handmade sẽ là sự lựa chọn hoàn h�
 
 
     <!-- home-banner-img -->
-    <div class="banner-img container-fluid">
-        <a href=""><img src="assets/image/Desktop_Homepage_Banner01.jpg" alt="Desktop_Homepage_Banner01"></a>
+    <div class="banner-img">
+        <div class="container-fluid">
+            <img src="assets/image/Desktop_Homepage_Banner01.jpg" alt="Desktop_Homepage_Banner01">
+        </div>
     </div>
 
-    <?php
-    ?>
     <!-- Link JS Bootraps -->
     <script src="assets/bootrap/bootstrap.min.js"></script>
     <script src="assets/js/main.js

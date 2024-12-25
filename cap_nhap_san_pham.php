@@ -48,16 +48,16 @@
             <!-- Loại sản phẩm -->
             <label for="loai_san_pham">Loại sản phẩm:</label>
             <select class="form-select mb-3" name="loai_san_pham" id="loai_san_pham">
-                <option value="1">Giày</option>
-                <option value="2">Phụ kiện</option>
-                <option value="3">Áo</option>
+                <option value="1">Sản phẩm</option>
+                <option value="2">Nguyên liệu</option>
+                <option value="3">Phụ kiện</option>
             </select>
 
             <!-- Trạng thái sản phẩm -->
             <label for="tinh_trang">Trạng thái sản phẩm:</label>
             <select class="form-select mb-3" name="tinh_trang" id="tinh_trang">
                 <option value="1">Bình thường</option>
-                <option value="2">New Arrival</option>
+                <option value="2">new</option>
                 <option value="3">Sale off</option>
             </select>
 

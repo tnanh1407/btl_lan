@@ -64,14 +64,13 @@
     position: relative;
 }
 
-
-
 .header .nav-list-two a::after {
     content: "";
     border: #e3e2e2 1px solid;
     position: relative;
     right: -16px;
 }
+
 
 .header .nav-list-two .product-saleOff {
     position: relative;
@@ -295,6 +294,11 @@
     margin: 40px 0;
 }
 
+.banner-img img {
+    width: 100%;
+    max-height: 786px;
+}
+
 /* home - footer */
 
 .home-footer {
@@ -377,381 +381,6 @@
     margin-right: 5px;
 }
 
-/* PAGE DISCOVER */
-
-.discover .wrap_content {
-    max-width: 800px;
-}
-
-.discover .wrap_content h2 {
-    margin: 0;
-    padding: 40px 0;
-    font-size: 5.0rem;
-    color: #000;
-}
-
-.discover .divider {
-    border-bottom: #000 3px solid;
-    height: 1px;
-    margin-bottom: 0px;
-}
-
-.discover .divider-- {
-    background: url(assets/image/shoe/bg_divider.png) repeat-x 7px;
-    height: 1px;
-    margin-bottom: 0px;
-}
-
-.discover .wrap_content .title {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 0;
-}
-
-
-
-.discover .wrap_content .title .title-one {
-    font-size: 16px;
-    color: #000;
-    font-weight: bold;
-
-}
-
-.discover .wrap_content .title .title-one .time {
-    font-size: 16px;
-    color: #808080;
-    margin-right: 8px;
-}
-
-.discover .wrap_content .title .title-two {
-    display: flex;
-    align-items: center;
-}
-
-.discover .wrap_content .text-one {
-    margin-top: 5px;
-    /* line-height: 1.4rem; */
-    padding: 0px 0px 0px 0px;
-    font-size: 1.7rem;
-    color: #000;
-    text-align: start;
-    margin: 0;
-}
-
-.discover .wrap_content .text-two {
-    font-size: 1.4rem;
-    color: #6d6e71;
-    text-align: start;
-}
-
-.discover h4 {
-    text-align: center;
-    font-size: 2.0rem;
-    color: #000;
-    margin-bottom: 0px;
-    /* line-height: 1.4em; */
-    margin: 30px 0px;
-}
-
-.discover .textconent_img {
-    margin-top: 8px;
-    display: flex;
-}
-
-.discover .textconent_img .text {
-    width: 50%;
-    text-align: start;
-    color: #000;
-    /* line-height: 1.3em; */
-    font-size: 1.6rem;
-
-}
-
-.discover .textconent_img .img {
-    width: 50%;
-
-}
-
-.discover .textconent_img .img img {
-    width: 100%;
-    float: left;
-}
-
-.discover .text-note {
-    margin-top: 5px;
-    font-size: 1.4rem;
-    color: #6d6e71;
-}
-
-.discover .wrap_item {
-    padding: 40px 0;
-    max-width: 1200px;
-
-}
-
-.discover .wrap_item h3 {
-    font-size: 3.2rem;
-    color: #000;
-    text-align: center;
-    margin-bottom: 40px;
-}
-
-.discover .wrap_item .item_list {
-
-    display: flex;
-}
-
-.discover .wrap_item .item_list .card-js {
-    border-style: none;
-    padding: 20px;
-    text-align: center;
-}
-
-.discover .wrap_item .item_list .card-js h4 {
-    margin: 0;
-    margin-bottom: 10px;
-    font-size: 2.0rem;
-    font-weight: bold;
-}
-
-.discover .wrap_item .item_list .card-js span {
-    font-weight: bold;
-    font-size: 1.5rem;
-}
-
-.discover .wrap_item .item_list .card-js .card-text {
-    font-size: 1.8rem;
-}
-
-
-/*  */
-.discover .wrap_item-2 {
-    padding: 40px 0;
-    max-width: 1200px;
-
-}
-
-.discover .wrap_item-2 h3 {
-    font-size: 3.2rem;
-    color: #000;
-    text-align: center;
-    margin-bottom: 40px;
-}
-
-.discover .wrap_item-2 .item_list {
-
-    display: flex;
-}
-
-.discover .wrap_item-2 .item_list .card-js {
-    border-style: none;
-    padding: 20px;
-    text-align: start;
-}
-
-.discover .wrap_item-2 .item_list .card-js h4 {
-    margin: 0;
-    margin: 12px 0;
-    color: #000;
-    font-size: 2.2rem;
-    font-weight: bold;
-    text-align: start;
-}
-
-.discover .wrap_item-2 .item_list .card-js span {
-    color: #f15e2c;
-    font-size: 1.6rem;
-}
-
-.discover .wrap_item-2 .item_list .card-js span:hover {
-    color: #000;
-}
-
-.discover .wrap_item-2 .item_list .card-js .card-text {
-    margin: 0;
-    margin-bottom: 5px;
-    font-size: 1.8rem;
-}
-
-
-.discover .wrap_item-2 .item_list .card-js .card-body {
-    padding: 0;
-}
-
-/* Shóes */
-.shoe {
-    margin-top: 30px;
-}
-
-.shoe .navbar {
-    margin: 20px 10px;
-    display: flex;
-    align-items: start;
-}
-
-.shoe .wrap-item {
-    max-width: 1200px;
-}
-
-.shoe .navbar_list {
-    flex-direction: column;
-    width: 100%;
-    padding: 20px 10px;
-}
-
-.shoe .navbar_item_title {
-    width: 100%;
-}
-
-.divider-- {
-    background: url(assets/image/shoe/bg_divider.png) repeat-x 7px;
-    height: 2px;
-    margin: 4px 0px;
-}
-
-.divider {
-    height: 2px;
-    border-top: #303030 2px solid;
-    margin: 2px 0px;
-}
-
-.shoe .navbar_item_type_product {
-    margin: 20px 0;
-}
-
-.shoe .navbar_item_type_product li {
-    padding: 4px 15px 4px 20px;
-    list-style-type: none;
-}
-
-.shoe .navbar_item_type_product li:hover {
-    background-color: #F1F1F1;
-}
-
-.shoe .navbar_item_type_product li a {
-    text-decoration: none;
-    color: #000;
-    font-size: 1.6rem;
-}
-
-.shoe .navbar .item_down_js {
-    padding: 4px 15px 4px 20px;
-    margin-bottom: 5px;
-}
-
-.shoe .navbar .item_down_js:hover {
-    background-color: #F1F1F1;
-}
-
-.shoe .navbar .item_down_js a {
-    text-decoration: none;
-    color: #000;
-    font-size: 1.6rem;
-}
-
-.shoe .navbar .wrap-item_js {
-    color: black;
-    font-weight: bold;
-    font-size: 2.4rem;
-    margin-top: 30px;
-}
-
-.shoe .navbar .js_down {
-    margin-bottom: 30px;
-}
-
-.shoe .navbar .item_down_js .color {
-    width: 30px;
-    height: 30px;
-    position: relative;
-    z-index: 999;
-    /* display: block; */
-    border: #e1e1e1 1px solid;
-    margin-right: 5px;
-    ;
-}
-
-.shoe .navbar_item_title {
-    margin: 20px 0;
-}
-
-.shoe .navbar_item_title a {
-    padding: 10px 15px;
-    text-decoration: none;
-    color: #999;
-    font-size: 2.3rem;
-    margin-right: 2px;
-    font-weight: bold;
-    position: relative;
-}
-
-.shoe .navbar_item_title a:nth-child(3):after {
-    display: none;
-}
-
-.shoe .navbar_item_title a::after {
-    content: "";
-    position: absolute;
-    width: 2%;
-    height: 24px;
-    top: 12px;
-    right: -8px;
-    background-color: #999;
-}
-
-.shoe .navbar_item_title a:hover {
-    color: black;
-}
-
-.shoe .product .banner {
-    margin-bottom: 20px;
-}
-
-.shoe .product .product_item {
-    margin: 20px 0;
-    padding: 0 5px;
-    border-style: none;
-}
-
-.shoe .product .product_item .trang-thai {
-    margin: 16px 0;
-    font-size: 1.6rem;
-    color: #ff5f17;
-}
-
-.shoe .product .product_item .ten_san_pham {
-    font-size: 1.6rem;
-    color: black;
-    font-weight: bold;
-    text-decoration: none;
-    margin: 10px 0;
-}
-
-.shoe .product .product_item .ten_san_pham:hover {
-    color: #ff5f17;
-}
-
-.shoe .product .product_item .kieu_dang {
-    margin-bottom: 6px;
-    font-size: 1.6rem;
-}
-
-.shoe .product .product_item .gia {
-    font-size: 1.6rem;
-    color: black;
-    font-weight: bold;
-}
-
-.shoe .product .product_wrap {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-}
-
-.shoe .product .divider-- {
-    margin-bottom: 12px;
-}
 
 /* DASHBOARD */
 .dashboard .header {
@@ -1093,4 +722,77 @@
 
 .capnhapsanpham button.btn-primary:hover {
     background-color: #0056b3;
+}
+
+.sanpham .item_list .item {
+    border: none;
+    text-align: center;
+    padding: 0px 10px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.sanpham .item .tinh_trang {
+    margin-top: 10px;
+    font-size: 1.6rem;
+    color: goldenrod;
+}
+
+.sanpham .item_list .item img {
+    object-fit: cover;
+}
+
+.sanpham .item_list .item .ten_san_pham {
+    margin: 10px 0;
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+.sanpham .item_list .item .ten_san_pham:hover {
+    color: #F15E2C;
+}
+
+.sanpham .item_list .item .loai_san_pham {
+    font-size: 1.8rem;
+}
+
+.sanpham .item_list .item .gia {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.sanpham .item_list .item .img i {
+    position: absolute;
+    font-size: 4.2rem;
+    color: red;
+    right: 30px;
+    top: 250px;
+}
+
+.sanpham .item_list .item .img button {
+    position: absolute;
+    color: white;
+    font-size: 1.6rem;
+    padding: 10px 20px;
+    background-color: #F15E2C;
+    left: 30px;
+    top: 250px;
+}
+
+.sanpham .banner {
+    margin: 10px 0px 20px 0px;
+}
+
+.sanpham .banner img {
+    width: 100%;
+    height: 450px;
+    object-fit: contain;
+}
+
+.sanpham .banner .title h3 {
+    text-align: center;
+    font-size: 3.6rem;
+    margin: 20px 0 40px 0;
+    font-weight: bold;
 }

@@ -191,11 +191,8 @@
     }
     ?>
     <div class="register">
-        <div class="register__logo">
-            <img src="assets/image/header/ananas_logo.svg" alt="">
-        </div>
         <div class="register__form">
-            <h3>Đăng kí Ananas</h3>
+            <h3>Đăng kí </h3>
             <form action="" method="post">
                 <div class="from_label form-floating ">
                     <input type="text" class="form-control" name="fullname" id="fullname" placeholder="Name of you ">

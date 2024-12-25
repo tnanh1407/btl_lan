@@ -35,19 +35,14 @@ if (isset($_GET['page']) && $_GET['page'] === "dangxuat") {
         <div class="header-top">
             <div class="container-fluid">
                 <ul class="menu">
-                    <li><a class="d-flex align-items-center" href=""><i class="fa-solid fa-user-pen"></i> HỒ SƠ CÁ
-                            NHÂN</a></li>
-                    <li><a class="d-flex align-items-center" href=""><i class="fa-solid fa-cart-arrow-down"></i>GIỎ
-                            HÀNG</a></li>
-                    <li><a class="d-flex align-items-center" href="layout.php?page=dangxuat"><i
-                                class="fa-solid fa-user"></i>ĐĂNG XUẤT</a></li>
+                    <li style="margin-right: 50px; font-size: 1.8rem; "><a class="d-flex align-items-center"
+                            href="layout.php?page=dangxuat"><i class="fa-solid fa-user"></i>ĐĂNG XUẤT</a></li>
                 </ul>
             </div>
         </div>
         <div class="nav-list row">
             <div class="nav-list-one item-box col-xl-3 ">
-                <a href="layout.php?page=trangchu"> <img src="assets/image/header/ananas_logo.svg"
-                        alt="ananas_logo"></a>
+                <a href="layout.php?page=trangchu"> <img src="assets/image/logo.jpg" alt="ananas_logo"></a>
             </div>
             <div class="nav-list-two item-box col-xl-6 ">
                 <div class="drop-down-list">
@@ -55,15 +50,14 @@ if (isset($_GET['page']) && $_GET['page'] === "dangxuat") {
                             class="fa-solid fa-angle-down"></i></a>
                 </div>
                 <div class="drop-down-list">
-                    <a href="layout.php?page=shoe" class=" product-shoe">NGUYÊN LIỆU <i class="fa-solid fa-angle-down"></i></a>
+                    <a href="layout.php?page=vatpham" class=" product-shoe">NGUYÊN LIỆU <i
+                            class="fa-solid fa-angle-down"></i></a>
                 </div>
                 <div class="drop-down-list">
                     <a href="layout.php?page=phukien" class="product-female">PHỤ KIỆN <i
                             class="fa-solid fa-angle-down"></i></a>
                 </div>
-                <a href="layout.php?page=saleoff" class="product-saleOff">SALE OFFOFF</a>
-                <a href="layout.php?page=discover" class="product-img"><img src="assets/image/header/DiscoverYOU.svg"
-                        alt="loi_"></a>
+                <a href="layout.php?page=saleoff" class="product-saleOff">SALE OFF</a>
             </div>
             <div class="nav-list-three item-box col-xl-3">
                 <i class="fa-solid fa-magnifying-glass"></i>
@@ -113,8 +107,8 @@ if (isset($_GET['page']) && $_GET['page'] === "dangxuat") {
             case "sanpham":
                 include('sanpham.php');
                 break;
-            case "shoe":
-                include('shoe.php');
+            case "vatpham":
+                include('vatpham.php');
                 break;
             case "phukien":
                 include('phukien.php');
